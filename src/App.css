@@ -3,5 +3,16 @@
 @tailwind utilities;
 
 body {
-  @apply bg-slate-800
+  @apply bg-neutral-100;
+}
+
+section {
+  @apply container mx-auto mt-6 mb-2 flex  bg-gradient-to-r from-violet-600 to-indigo-600 shadow-lg rounded-lg p-8;
+}
+
+h2 {
+  @apply text-2xl font-bold text-gray-50;
+}
+button {
+  @apply w-full text-gray-800 bg-gradient-to-r from-violet-200 to-indigo-200 mt-10 px-4 py-2 rounded-md block font-bold hover:from-violet-300 hover:to-indigo-300;
 }
